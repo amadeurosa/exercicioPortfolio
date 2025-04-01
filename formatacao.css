@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: green;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+}
+
+h1, h2, h3 {
+    color: rgb(218, 245, 245);
+    letter-spacing: 1px;
+}
+
+p, li, blockquote {
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+#quadradoContato {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+
+form button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+}
+
+#secaoVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    border-left: 3px solid green;
+    padding-left: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
